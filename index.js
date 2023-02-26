@@ -60,8 +60,8 @@ const questions = [
     {
         type:'input',
         name:'contributing',
-        message:'What does the user need to know about contributing to the repo?',
-        default: 'npm i'
+        message:'What does the user need to know about contributing to the repo?'
+        
     },
 
 ];
