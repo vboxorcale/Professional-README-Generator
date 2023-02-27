@@ -1,8 +1,8 @@
-# test
-  ![Github license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
+# Module 11
+  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
   ### Description
 
-  test
+  ReadMe Generator
 
   ### Table of Contents
 
@@ -28,6 +28,26 @@
 
   ## Usage
 
-  nodejs
+  nodejs version 16 or above
+
+  ## License
+
+  ## Contributing
+
+  make a pull request on the repo
+
+  ## Tests
+
+  To run tests, run the following command:
+
+  ```
+  npm test
+  ```
+
+  ### Questions
+  If you have any questions about the project open an issue or contact me at
+  hello@yahoo.com
+
+  You can also find more at my work at [hello](https://github.com/hello)
 
 
