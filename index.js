@@ -33,7 +33,7 @@ const questions = [
         type:'list',
         name:'license',
         message:'What kind of license ?',
-        choices: ["MIT", "APACHE 2.0", "GPL", "None"]
+        choices: ["MIT", "APACHE2.0", "GPL", "None"]
 
     },
     {
@@ -53,7 +53,7 @@ const questions = [
     {
         type:'input',
         name:'usage',
-        message:'What does the user need to know how about using the repo ?'
+        message:'What does the user need to know how about using the repo?'
         
     },
 
@@ -68,11 +68,15 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName),data);
 }
 
 // function to initialize program
 function init() {
-
+      inquirer.prompt(questions).then((response)=>{
+          console.log(`Generating readMe...`);
+          writeToFile('README.md',generateMarkdown({...response}));
+      })
 }
 
 // function call to initialize program
