@@ -1,8 +1,8 @@
-# Module 11
-  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+# Readme Generator
+  ![Github license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
   ### Description
 
-  ReadMe Generator
+  project for Module 11
 
   ### Table of Contents
 
@@ -32,9 +32,11 @@
 
   ## License
 
+  This project is Licensed under the APACHE2.0 license.
+
   ## Contributing
 
-  make a pull request on the repo
+  pull request
 
   ## Tests
 
@@ -46,8 +48,8 @@
 
   ### Questions
   If you have any questions about the project open an issue or contact me at
-  hello@yahoo.com
+  kururu@kero.com
 
-  You can also find more at my work at [hello](https://github.com/hello)
+  You can also find more at my work at [Kururu](https://github.com/Kururu)
 
 
