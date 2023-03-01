@@ -1,8 +1,8 @@
 # Readme Generator
-  ![Github license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
+  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
   ### Description
 
-  project for Module 11
+  Project for module 11
 
   ### Table of Contents
 
@@ -32,7 +32,7 @@
 
   ## License
 
-  This project is Licensed under the APACHE2.0 license.
+  This project is Licensed under the MIT license.
 
   ## Contributing
 
